@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "example"
+version = "0.1.0"
+description = ""
+authors = ["None"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+cred-retrieve = {version = "^0.1.1", platform = 'win32'}
+cybosx-login = {version = "^0.1.0", platform = 'win32'}
+run-as-task = {version = "^0.1.4", platform = "win32"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
